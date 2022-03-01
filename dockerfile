@@ -10,4 +10,8 @@ FROM alpine:latest
 RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 COPY --from=0 /go/src/github.com/tarathep/tutorial-backend/app ./
+<<<<<<< HEAD
 CMD ["./app"]
+=======
+CMD ["./app"]
+>>>>>>> 3eeff8ee0e76b7808a45031aedc29beb1ae4adbc
